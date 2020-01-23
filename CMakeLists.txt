@@ -19,6 +19,7 @@ include_directories(${catkin_INCLUDE_DIRS}
 
 include_directories(${PROJECT_SOURCE_DIR}/src/)
 
+include_directories(/opt/ros/melodic/lib/cmake/)
 
 SET(SOURCES ${PROJECT_SOURCE_DIR}/src/main.cpp
             ${PROJECT_SOURCE_DIR}/src/aruco_mapping.cpp)
